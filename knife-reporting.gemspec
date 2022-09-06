@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/chef/knife-reporting"
 
   s.required_ruby_version = ">= 2.2.2"
-  s.add_dependency "mixlib-cli", "~> 1.5"
+  s.add_dependency "mixlib-cli", ">= 1.5", '< 3'
 
   s.require_path = "lib"
   s.files = %w{LICENSE README.md Rakefile} + Dir.glob("{lib,spec}/**/*")
